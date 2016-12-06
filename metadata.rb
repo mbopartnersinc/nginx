@@ -9,7 +9,7 @@ recipe 'nginx',         'Installs nginx package and sets up configuration with D
 
 depends 'bluepill',        '~> 2.3'
 depends 'build-essential', '~> 2.0'
-depends 'ohai',            '~> 4.2'
+depends 'ohai',            '~> 3.0'
 depends 'yum-epel',        '~> 0.3'
 
 supports 'amazon'

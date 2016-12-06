@@ -2,6 +2,10 @@ nginx Cookbook CHANGELOG
 ========================
 This file is used to list changes made in each version of the nginx cookbook.
 
+2.7.7
+-----
+nmcginnis - removed sources recipe and spec testing to rid recipe of sources and thus very old runit version requirement which causes dep issues.
+
 v2.7.6 / 2015-03-17
 ==================
 
